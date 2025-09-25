@@ -1,0 +1,1 @@
+((Get-FileHash "C:\Users\groot\Downloads\PowerToysSetup-0.94.2-x64.exe" -a sha256).Hash) -eq (Get-Content "C:\Users\groot\Downloads\PowerToys Hash.txt")
